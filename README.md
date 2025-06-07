@@ -31,4 +31,14 @@ Para lanzar la moneda el usuario debe clickear en la misma mientras que los acum
 - git push -u origin main
 
 ### 🐋Docker:
-
+1. Descargo la imagen de Nginx (docker-hub)
+- desde la web de docker o desktop en el tab docker hub con el boton pull
+- desde terminal: docker pull nginx
+2. genero el archivo default.conf
+3. desde terminal me ubico en la carpeta donde está mi proyecto y el archivo default.conf
+4. Levanto el contenedor Nginx con el comando  
+&nbsp;docker run --name ing-soft-nginx \`.  
+-v \${PWD}:/usr/share/nginx/html \`.  
+-v \${PWD}\default.conf:/etc/nginx/conf.d/default.conf \`.  
+-p 8082:80 \`. 
+-d nginx  
