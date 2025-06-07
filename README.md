@@ -10,7 +10,7 @@ Repaso de los conceptos aprendidos para las herramientas Git Y Docker
 ## ✅ Puntos a tener en cuenta: 
 
 - **El enlace al repositorio con el proyecto** - [Click aquí](https://github.com/LeoPlazaIstea/IngDeSoft)
-- **El README.md con las instrucciones claras de uso y armado del contenedor** - Tareas asignadas
+- **El README.md con las instrucciones claras de uso y armado del contenedor** 
 
 ## ⚙️ Descripcion y Funcionamiento
 La web app es un desarrollo basico que permite simular lanzamientos de moneda para obtener cara o seca con una moneda animada con css mientras que el lanzamiento se delega a Javascript Vanilla.
